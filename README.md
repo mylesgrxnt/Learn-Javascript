@@ -2,13 +2,19 @@
 
 ## SETUP (Read First)
 
-This course will be structured in a series of modules/folders, each designed to introduce you to a fundamental aspect of JavaScript. Each module will contain a text file, guiding you through each lesson, as well as various other JavaScript files with tasks to complete. The focus of this course is to teach JavaScript, so all html and css files should be left as-is. JavaScript files, however, are fair game and should be changed and altered to complete the tasks and challenges set forth.
+1) Install Node.js
 
-To get started, clone this repository to your local machine, open up module 1 titled "Introduction to JavaScript", and begin reading the module1.txt file!
+2) Install Visual Studio Code, or any other code editor that you are comfortable using.
+
+3) Clone this repository onto your local machine.
+
+4) Read the Overview section of the README.md
+
+5) Open "Module 1 - Introduction to JavaScript" and begin reading "module 1.txt"
 
 ## Overview
 
-Welcome to a crash course in Javascript!By the end of this course, you should feel comfortable with several key aspects of JavaScript:
+Welcome to a crash course in Javascript! This course will be structured in a series of modules/folders, each designed to introduce you to a fundamental aspect of JavaScript. Each module will contain a text file, guiding you through each lesson, as well as various other JavaScript files with tasks to complete. The focus of this course is to teach JavaScript, so all html and css files should be left as-is. JavaScript files, however, are fair game and should be changed and altered to complete the tasks and challenges set forth. By the end of the course, you should feel comfortable with the following key concepts and fundamentals of JavaScript:
 
 1) Syntax and Fundamentals: You'll be proficient in writing JavaScript code, understanding its syntax, variables, data types, operators, and control structures like loops and conditionals.
 
