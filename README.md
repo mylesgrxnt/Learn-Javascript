@@ -2,7 +2,7 @@
 
 ## SETUP (Read First)
 
-This course will be structured in a series of modules/folders, each designed to introduce you to a fundamental aspect of javascript. Each module will contain a text file, guiding you through each lesson, as well as various other javascript files with tasks to complete. The focus of this course is to teach javascript, so all html and css files should be left as-is. Javascript files, however, are fair game and should be changed and altered to complete the tasks and challenges set forth.
+This course will be structured in a series of modules/folders, each designed to introduce you to a fundamental aspect of JavaScript. Each module will contain a text file, guiding you through each lesson, as well as various other JavaScript files with tasks to complete. The focus of this course is to teach JavaScript, so all html and css files should be left as-is. JavaScript files, however, are fair game and should be changed and altered to complete the tasks and challenges set forth.
 
 To get started, clone this repository to your local machine, open up module 1 titled "Introduction to JavaScript", and begin reading the module1.txt file!
 
@@ -26,4 +26,4 @@ Welcome to a crash course in Javascript!By the end of this course, you should fe
 
 8) Basic Project Implementation: You'll have practical experience implementing small JavaScript projects, which may include interactive forms, simple games, or dynamic content updates.
 
-Overall, the goal is for you to feel confident in your ability to write, understand, and debug JavaScript code. This is not a course any software or testing processes that utilize JavaScript and will therefore not cover anything of that nature, but you should be prepared with the fundamental skills you need to tackle any JavaScript-related challenge following the conclusion of this course.
+Overall, the goal is for you to feel confident in your ability to write, understand, and debug JavaScript code. This is not a course in any software or testing processes that utilize JavaScript and will therefore not cover anything of that nature, but you should be prepared with the fundamental skills you need to tackle any JavaScript-related challenge following the conclusion of this course.
