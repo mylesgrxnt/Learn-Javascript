@@ -117,21 +117,21 @@ Control Structures
 Conditional Statements are statements that execute blocks of code { } depending on certain conditions housed in ( ).
 
  - The "if" statement executes a block of code based on whether or not the given condition evaluates to True. An "if" statement may or may not be proceeded by an "else" statement.
-  - **if (condition) {block statement}**
+  - *if (condition) {block statement}*
 
  - The "else" statement always follows an "if" statement, and may not exist on its own. An "else" statement executes a block of code only in the instance that the preceeding "if" statement evaluates as False
-  - **else {block statement}**
+  - *else {block statement}*
 
  - The "else if" statement combines the functionality of the "else" statement and the "if" statement. The statement executes a block of code only if the preceeding "if" (or "else if") statement evaluates as False AND the given condition evaluates as True.
-  - **else if (condition) {block statement}**
+  - *else if (condition) {block statement}*
 
 ### Loops
 
 Loops repeat a block of code based on given conditions.
 
-#### "for" loop
+#### for loop
 
-**for (initialization; condition; afterthought) {block statement}**
+*for (initialization; condition; afterthought) {block statement}*
 
 The "for" loop repeats until a given condition evaluates to False. It follows the following 5 step process:
 
@@ -151,9 +151,9 @@ In example 1.4.1 in "example_1.js", the variable "i" is initially set to 0 in th
 
 #### while loop and do while loop
 
-**while (condition) {block statement}**
+*while (condition) {block statement}*
 
-**do {block statement} while (condition);**
+*do {block statement} while (condition);*
 
 The "while" loop repeats as long as a condition evaluates to True. The while loop and "do while" loop are very similar, but differ in when they check the condition. In a while loop, the condition is checked before the block statement executes, whereas in a do while loop, the block statement is executed before the condition is checked.
 
@@ -173,7 +173,7 @@ Do while loop:
 
 3) Return to step 1.
 
-Make sure to avoid infinite loops when using while or do while loops! Using **while (true) {block statement}** can be very dangerous, as the code will continue executing indefinitely.
+Make sure to avoid infinite loops when using while or do while loops! Using *while (true) {block statement}* can be very dangerous, as the code will continue executing indefinitely.
 
 ## Functions
 
