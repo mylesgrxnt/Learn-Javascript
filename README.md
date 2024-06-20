@@ -2,15 +2,17 @@
 
 ## SETUP (Read First)
 
-1) Install Node.js
+1) Ensure you have Google Chrome installed, with developer tools enabled. You can check this by pressing F12 on Windows or Option + ⌘ + I on Mac, and a toolbar should open listing all the elements on the webpage.
 
-2) Install Visual Studio Code, or any other code editor that you are comfortable using.
+2) Install Node.js
 
-3) Clone this repository onto your local machine.
+3) Install Visual Studio Code, or any other code editor that you are comfortable using.
 
-4) Read the Overview section of the README.md
+4) Clone this repository onto your local machine.
 
-5) Open "Module 1 - Introduction to JavaScript" and begin reading "module 1.txt"
+5) Read the Overview section of the README.md
+
+6) Open "Module 1 - Introduction to JavaScript" and begin reading "module_1.md"
 
 ## Overview
 
