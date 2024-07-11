@@ -178,12 +178,18 @@ Make sure to avoid infinite loops when using while or do while loops! Using *whi
 ### Switch Statements
 
 *switch(expression) {*
-  *case (expression):*
-    *do something*
-  *case (expression):*
-    *do something else*
-  *default:*
-    *do a default thing*
+
+ *case (expression):*
+
+  *do something*
+
+ *case (expression):*
+
+  *do something else*
+
+ *default:*
+
+  *do a default thing*
 *}*
 
 The "switch" statement in JavaScript provides a way to execute different code blocks based on different conditions. Switch statements are particularly useful when you have a single expression that can have multiple possible values, and you want to execute different code blocks for each value without writing multiple nested if-else statements. They provide a structured way to organize code based on multiple conditions, improving readability and maintainability in JavaScript programs.
