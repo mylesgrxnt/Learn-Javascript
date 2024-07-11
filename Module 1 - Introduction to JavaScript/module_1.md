@@ -175,6 +175,29 @@ Do while loop:
 
 Make sure to avoid infinite loops when using while or do while loops! Using *while (true) {block statement}* can be very dangerous, as the code will continue executing indefinitely.
 
+### Switch Statements
+
+*switch(expression) {*
+  *case (expression):*
+    *do something*
+  *case (expression):*
+    *do something else*
+  *default:*
+    *do a default thing*
+*}*
+
+The "switch" statement in JavaScript provides a way to execute different code blocks based on different conditions. Switch statements are particularly useful when you have a single expression that can have multiple possible values, and you want to execute different code blocks for each value without writing multiple nested if-else statements. They provide a structured way to organize code based on multiple conditions, improving readability and maintainability in JavaScript programs.
+
+1) The switch statement begins by evaluating an expression (often a variable or a value) that is provided in parentheses after the "switch" keyword.
+
+2) The evaluated expression is then compared with each case label (specified using the "case" keyword followed by a value or expression). If a match is found between the evaluated expression and a case label, the corresponding block of code associated with that case is executed.
+
+3) Once a matching case is found, JavaScript executes the block of code associated with that case. This block is enclosed within curly braces {} and typically includes one or more statements.
+
+4) After executing the code block for a matched case, the "break" statement is encountered. This causes JavaScript to exit the switch statement and continue execution after the switch block. If "break" is omitted, execution will continue into the next case block regardless of whether its condition matches.
+
+5) *(Optional)* If none of the case labels match the evaluated expression, the optional "default" case can be provided. If included, the code block associated with the default case will execute. This is akin to an "else" statement in an if-else structure.
+
 ## Functions
 
 1.5 in "examples_1.js"
