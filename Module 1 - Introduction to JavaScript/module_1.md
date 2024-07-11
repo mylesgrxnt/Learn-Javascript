@@ -178,17 +178,11 @@ Make sure to avoid infinite loops when using while or do while loops! Using *whi
 ### Switch Statements
 
 *switch(expression) {*
-
  *case (expression):*
-
   *do something*
-
  *case (expression):*
-
   *do something else*
-
  *default:*
-
   *do a default thing*
 *}*
 
