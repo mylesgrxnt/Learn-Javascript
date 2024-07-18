@@ -35,3 +35,15 @@ Welcome to a crash course in Javascript! This course will be structured in a ser
 8) Basic Project Implementation: You'll have practical experience implementing small JavaScript projects, which may include interactive forms, simple games, or dynamic content updates.
 
 Overall, the goal is for you to feel confident in your ability to write, understand, and debug JavaScript code. This is not a course in any software or testing processes that utilize JavaScript and will therefore not cover anything of that nature, but you should be prepared with the fundamental skills you need to tackle any JavaScript-related challenge following the conclusion of this course.
+
+## Helpful Tips
+
+### Running a JavaScript file:
+
+1) change this directory to be the active directory -> cd "path-to-this-repository"
+
+2) Use Node to run any files ending in .js (the JavaScript file extension) -> node '.\Module 1 - Introduction to JavaScript\examples_1.js'
+
+### Don't be afraid to Google things! 
+
+JavaScript, like any other coding language, has a lot of depth and requires practice and extra research to become truly proficient. Knowing how to Google things is a skill in itself, so do not be afraid to constantly be looking things up and asking questions. The nice thing about JavaScript being as popular as it is, is that any question you may have will almost definitely already have been asked and answered online on sites such as Stack Overflow. It is impossible for one training course to contain everything there is to know about JavaScript, but this course is designed to give you a solid fonudation to build on!

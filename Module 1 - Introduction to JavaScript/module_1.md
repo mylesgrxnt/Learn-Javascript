@@ -204,6 +204,8 @@ The "switch" statement in JavaScript provides a way to execute different code bl
 
 Functions are reusable blocks of code that are declared once, then called (or executed) as many times as you want. Functions execute an order of instructions, and can optionally intake parameters (values coming from outside the function used within the function) and/or return a value.
 
+This section is just a brief overview of functions, we will go more in depth on functions in the next module!
+
 ### Function Declarations
 
 The "function" keyword is used to declare a function. Next, the function name follows with parentheses that may contain parameters, which are values that are "insterted" into the function and will be used throughout the function body. The entirety of the function is enclosed by curly braces { }. Functions can only be declared once, so you may not reuse the name of a function.
