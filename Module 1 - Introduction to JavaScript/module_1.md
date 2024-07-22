@@ -63,7 +63,7 @@ Arithmetic Opera1tors perform arithmetic operations on 2 numbers:
 ### Assignmnent Operators
 
 Assignment Operators assign values to variables:
-1
+
  - "=" Assigns a value
 
  - "+=" Adds and assigns: "a += b" is equivalent to "a = a + b"
@@ -81,7 +81,7 @@ Assignment Operators assign values to variables:
 Comparison Operators compare two values and return a Boolean result.
 
  - "==" Equal to
-1
+
  - "!=" Not equal to
  
  - "===" Strict equal to (checks both value and type)

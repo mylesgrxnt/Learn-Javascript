@@ -2,11 +2,15 @@
 
 // Defining Functions
 console.log("DEFINING FUNCTIONS");
+
 function greet() { // 2.1.1
     console.log("Hello!");
 }
 
 greet(); // Output: "Hello!"
+
+
+
 
 // Function Parameters
 console.log("\nPARAMETERS");
@@ -16,8 +20,11 @@ function personal_greeting(name) { // 2.1.2
 
 personal_greeting("Pete"); // Output: "Hello, Pete"
 
+
+
 // Function Scope and Visibility
 console.log("\nFUNCTION SCOPE");
+
 let a = "This is a GLOBAL variable"; // This is a gobal variable
 function scope_example() { // 2.1.3
     let b = "This is a LOCAL variable"; // This is a local variable
@@ -29,8 +36,12 @@ console.log(a); // Output: "This is a GLOBAL variable"
 // console.log(b); --> Output: ReferenceError: b is not defined
 scope_example();
 
+
+
+
 // Return Values  
 console.log("\nRETURN VALUES");
+
 function birth_year(age) { // 2.1.4
     let year_born = 2024 - age;
     return year_born;
@@ -38,10 +49,14 @@ function birth_year(age) { // 2.1.4
 let year = birth_year(29);
 console.log("You were born in " + year); // Output: You were born in 1995
 
+
+
+
 // 2.2 Advanced Functions -----------------------------------------------------------------------------------------
 
 // Arrow Functions
 console.log("\nARROW FUNCTIONS");
+
 function add1(a,b) { // 2.2.1
     return a + b;
 }
@@ -53,8 +68,12 @@ console.log(add2(2,3)); // Output: 5
 console.log(add3(2,3)); // Output: 5
 console.log(square(2)); // Output: 4
 
+
+
+
 // Function Closures
 console.log("\nFUNCTION CLOSURES");
+
 function outerFunction() { // 2.2.2
     const outerVariable = 'I am from the outer function';
 
@@ -66,7 +85,6 @@ function outerFunction() { // 2.2.2
 }
 const closureExample = outerFunction();
 closureExample(); // Output: "I am from the outer function"
-
 
 function createCounter() { // 2.2.3
     let count = 0;
@@ -82,6 +100,9 @@ console.log(counter1()); // Outputs: 1
 console.log(counter1()); // Outputs: 2
 const counter2 = createCounter();
 console.log(counter2()); // Outputs: 1 (starts fresh for counter2)
+
+
+
 
 // 2.3 Asynchronous Programming ------------------------------------------------------------------------------------
 
@@ -127,6 +148,9 @@ promise.then(data => {
     });
 
 console.log("After fetchDataFromAPI function call, but before data is fetched.");
+
+
+
 
 
 // Async/Await
